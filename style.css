@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .barre{
+    position: fixed;
+    width: 100%;
+    
+  }
+  .navbar{
+    
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    align-items: center; 
+    width: 100%;
+    background-color: white;
+    height: 140px;
+    
+    
+  } 
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .drop{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .Home p{
+    font-weight: 500;
+  }
+  .drop a{
+    font-weight: 500;
+  }
+  .drop p{
+    margin-left: 20%;
+    margin-top: -2%;
+  }
+
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    /* justify-content: space-between; */
+    
+  }
+  .m{
+    margin-right: 15%;
+  }
+
+  .started{
+    margin-left: 25%;
+  }
+
+  .getstarted{
+    /* height: 40px; */
+    width: 140px;
+    background-color: rgb(190,225,230);
+    border-radius:8px;
+    border: none;
+    /* margin-top: 8vh ;
+    margin-left: -2%;   */
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    margin-left: 30%;
+
+  }
+  span{
+    color: black;
+    padding-left: 5%;
+  }
+  .arrow2{
+    color:white;
+  }
+
+  .LOGO{
+    height: 60px;
+    margin-left: 85%;
+  }
+  .menuicone{
+    margin-left: 10%;
+  }
+  .icone{
+    width:5100px;
+    height: auto;
+  }
+
+
+  /* /////////////////////////Body/////////////// */
+  .bodyy{
+    background-color:  rgb(190,225,230);
+    height: 100vh;
+  }
+  .textandimage{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    justify-content: space-between;
+  }
+.textbodyy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+    
+}
+.digitalmarketingagency p{
+    height: 30px;
+    width: 215px;
+    background-color: rgb(0, 109, 119);
+    border-radius:15px;
+    border: none;
+    /* margin-top: 8vh ;
+    margin-left: -2%;   */
+    color: rgb(255, 255, 255);
+    font-size: 108%;
+    padding-left: 2%;
+    padding-top: 0.25%;
+    font-weight: 500;
+}
+.hadvanced{
+    font-size: 400% ;
+    color: black;
+    line-height: 110%;
+    margin-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 640;
+}
+.lorum{
+    color: rgb(129, 147, 149);
+    margin-top: 5%;
+    line-height: 180%;
+    font-size: 120%;
+}
+
+.flexsquare{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    
+}
+.getstarted2{
+    height: 50px;
+    width: 140px;
+    background-color: rgb(3, 3, 3);
+    border-radius:5px;
+    border: none;
+    /* margin-top: 8vh ;
+    margin-left: -2%;   */
+    color: white;
+    font-size: 110%;
+    padding-left: 7%;
+    padding-top: 4%;
+}
+.getstarted2 a{
+  margin-left: -6%;
+  font-weight: 500;
+}
+.howitworks{
+    height: 50px;
+    width: 140px;
+    
+    border-radius:5px;
+    border:1px rgb(0, 109, 119) solid;
+    /* margin-top: 8vh ;
+    margin-left: -2%;   */
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    padding-left: 7%;
+    padding-top: 4%;
+    margin-left: 10%;
+}
+.howitworks a{
+  margin-left: -6%;
+  font-weight: 500;
+}
+
+.imagebodyy{
+    margin-top: 15%;
+    margin-right: 10%;
+
+    
+}
+.image1{
+   width: 450px; 
+   height: auto;
+   
+}
